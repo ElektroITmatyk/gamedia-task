@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cryptocurrency-prices
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+
+api:
+  coinlayer:
+    url: http://api.coinlayer.com/live
