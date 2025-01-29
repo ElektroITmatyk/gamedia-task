@@ -13,3 +13,4 @@ feign:
 api:
   coinlayer:
     url: http://api.coinlayer.com/live
+    key: ${API_COINLAYER_KEY}

@@ -1,11 +1,11 @@
 package pl.gamedia.task.domain.service;
 
-import pl.gamedia.task.domain.entities.CryptocurrencyPriceResponse;
+import pl.gamedia.task.domain.entities.CryptocurrencyPriceResponseDto;
 
 import java.util.List;
 
 public interface PricesService {
 
-    List<CryptocurrencyPriceResponse> getPrices(String currency, List<String> filter);
+    CryptocurrencyPriceResponseDto getPrices(String currency, List<String> filter);
 
 }
