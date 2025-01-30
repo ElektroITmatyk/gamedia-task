@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.math.BigDecimal;
 import java.util.Map;
 
 @Setter
@@ -18,6 +19,6 @@ public class CoinlayerLiveResponseDto {
     private String privacy;
     private long timestamp;
     private String target;
-    private Map<String, Double> rates;
+    private Map<String, BigDecimal> rates;
 
 }
